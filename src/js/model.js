@@ -150,11 +150,6 @@ const init = function () {
 
 init();
 
-// FOR DEVELOPMENT: Function to clear all bookmarks
-const clearBookmarks = function () {
-	localStorage.clear("bookmarks");
-};
-
 export const uploadRecipe = async function (newRecipe) {
 	try {
 		const ingredients = Object.entries(newRecipe)
